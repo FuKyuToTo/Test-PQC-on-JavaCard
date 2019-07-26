@@ -136,7 +136,7 @@ public class Test1024 extends Applet {
 	};
 	//*********************************************************************
 //	static short[] NTT_V_COEFF = new short[N];
-	static short[] NTT_X_COEFF = new short[N];
+	static short[] NTT_X_COEFF = new short[N];	//on EEPROM
 	static short[] NTT_Y_COEFF = new short[N];
 	static short[] NTT_Z_COEFF = new short[N];
 
@@ -146,7 +146,7 @@ public class Test1024 extends Applet {
 				bArray[bOffset]);
 		
 //		NTT_V_COEFF = JCSystem.makeTransientShortArray(N, JCSystem.CLEAR_ON_DESELECT);
-//		NTT_X_COEFF = JCSystem.makeTransientShortArray(N, JCSystem.CLEAR_ON_DESELECT);
+//		NTT_X_COEFF = JCSystem.makeTransientShortArray(N, JCSystem.CLEAR_ON_DESELECT);	//on RAM
 //		NTT_Y_COEFF = JCSystem.makeTransientShortArray(N, JCSystem.CLEAR_ON_DESELECT);
 //		NTT_Z_COEFF = JCSystem.makeTransientShortArray(N, JCSystem.CLEAR_ON_DESELECT);
 	}
