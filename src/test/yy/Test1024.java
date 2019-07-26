@@ -161,9 +161,9 @@ public class Test1024 extends Applet {
 
 	public void mod_mul() {
 		for (short i = 0; i < N; i++) {
-        	NTT_X_COEFF[i] = s[i];
-        	NTT_Y_COEFF[i] = e[i];
-        }
+        		NTT_X_COEFF[i] = s[i];
+        		NTT_Y_COEFF[i] = e[i];
+        	}
 		
 		NTT(NTT_X_COEFF);
 		NTT(NTT_Y_COEFF);
